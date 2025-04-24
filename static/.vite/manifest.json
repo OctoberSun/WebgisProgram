@@ -1,0 +1,18 @@
+{
+  "../public/img/argologo.png": {
+    "file": "assets/argologo-D3CcyYnU.png",
+    "src": "../public/img/argologo.png"
+  },
+  "main.js": {
+    "file": "main-M_fHMUjK.js",
+    "name": "main",
+    "src": "main.js",
+    "isEntry": true,
+    "css": [
+      "assets/main-BYJGz_Gq.css"
+    ],
+    "assets": [
+      "assets/argologo-D3CcyYnU.png"
+    ]
+  }
+}

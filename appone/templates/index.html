@@ -1,0 +1,16 @@
+{% extends 'base4index.html' %}
+{% load static %}
+{% load django_vite %}
+{% vite_hmr_client %}
+
+{% block link %}
+    <link rel="icon" href="{% static 'vite.svg' %}">
+{% endblock %}
+
+{% block script %}
+    {% vite_asset 'main.js' app='default' %}
+{% endblock %}
+
+{% block body %}
+    <main id="app">Loading......</main>
+{% endblock %}
